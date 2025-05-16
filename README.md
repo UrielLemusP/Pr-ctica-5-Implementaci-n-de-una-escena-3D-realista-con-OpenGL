@@ -66,7 +66,7 @@ A / D: Rotar sobre eje Y
 
 Q / E: Rotar sobre eje Z
 
-+ / -: Escalar figura
+(mas) + / - (menos) : Escalar figura
 
 Opciones visuales:
 
