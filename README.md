@@ -1,3 +1,5 @@
+#Super Importante: Practica_5.zip es el codigo con la carpeta de imagenes. Al darle click no aparecera nada, le tienes que dar en View Raw o 
+
 # Visualizador 3D con PyOpenGL y Pygame
 
 Este proyecto permite visualizar e interactuar con diferentes figuras 3D como cubo, pirámide, esfera, cilindro y superelipsoide, usando **Python**, **Pygame** y **PyOpenGL**. Las figuras pueden ser rotadas, escaladas, trasladadas, texturizadas e iluminadas dinámicamente mediante el teclado.
