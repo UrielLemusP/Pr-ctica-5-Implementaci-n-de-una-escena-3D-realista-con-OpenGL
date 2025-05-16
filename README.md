@@ -22,7 +22,7 @@ Este proyecto permite visualizar e interactuar con diferentes figuras 3D como cu
 Instálalas con pip:
 pip install pygame PyOpenGL PyOpenGL_accelerate
 
-📁 Estructura del Proyecto
+# 📁 Estructura del Proyecto
 Practica_5/
 ├── proyecto_3D.py         # Código principal del visualizador
 ├── texturas/
@@ -31,14 +31,15 @@ Practica_5/
 │   ├── esfera.jpg
 │   ├── cilindro.jpg
 │   └── superelipsoide.jpg
-└── README.md
+
 ⚠️ Asegúrate de colocar las texturas en la carpeta texturas/ con los nombres indicados. Son necesarias si usa_textura=True.
 
-▶️ ¿Cómo ejecutar?
+# ▶️ ¿Cómo ejecutar?
 Ejecuta el programa desde la terminal:
 
 python proyecto_3D.py
-🎮 Controles del teclado
+
+# 🎮 Controles del teclado
 Menú principal
 Presiona una tecla numérica para seleccionar una figura:
 
@@ -54,7 +55,7 @@ Presiona una tecla numérica para seleccionar una figura:
 
 6: Salir
 
-Interacción con la figura
+# Interacción con la figura
 Transformaciones:
 
 ← ↑ ↓ →: Mover figura en X/Y
@@ -79,7 +80,7 @@ J / K: Mover fuente de luz en X
 
 ESC: Volver al menú principal
 
-⚙️ Notas técnicas
+# ⚙️ Notas técnicas
 Las figuras usan OpenGL para renderizado.
 
 Las transformaciones se aplican con glTranslatef, glRotatef, glScalef.
@@ -88,8 +89,8 @@ Las texturas deben estar en formato .jpg y llamarse como la figura (cubo.jpg, et
 
 El superelipsoide se genera con una fórmula paramétrica usando GL_POINTS.
 
-👤 Autor
+# 👤 Autor
 Desarrollado como parte de un proyecto educativo de visualización 3D en Python con OpenGL (Benemerita Universidad Autonoma de Puebla).
 
-📄 Licencia
+# 📄 Licencia
 Este proyecto está licenciado bajo la MIT License.
